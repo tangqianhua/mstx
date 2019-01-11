@@ -7,23 +7,27 @@ module.exports = {
       {
         id: 1,
         name: '常见菜式',
+        pid: 0,
         created_at: moment().format('YYYY-MM-DD HH:mm:ss'),
         updated_at: moment().format('YYYY-MM-DD HH:mm:ss')
       },
       {
         id: 2,
         name: '主食/小吃',
+        pid: 0,
         created_at: moment().format('YYYY-MM-DD HH:mm:ss'),
         updated_at: moment().format('YYYY-MM-DD HH:mm:ss')
       },
       {
         id: 3,
         name: '甜品/饮品',
+        pid: 0,
         created_at: moment().format('YYYY-MM-DD HH:mm:ss'),
         updated_at: moment().format('YYYY-MM-DD HH:mm:ss')
       },
       {
         id: 4,
+        pid: 0,
         name: '适宜人群',
         created_at: moment().format('YYYY-MM-DD HH:mm:ss'),
         updated_at: moment().format('YYYY-MM-DD HH:mm:ss')
@@ -31,48 +35,56 @@ module.exports = {
       {
         id: 5,
         name: '食疗食补',
+        pid: 0,
         created_at: moment().format('YYYY-MM-DD HH:mm:ss'),
         updated_at: moment().format('YYYY-MM-DD HH:mm:ss')
       },
       {
         id: 6,
         name: '场景',
+        pid: 0,
         created_at: moment().format('YYYY-MM-DD HH:mm:ss'),
         updated_at: moment().format('YYYY-MM-DD HH:mm:ss')
       },
       {
         id: 7,
         name: '饮食方式',
+        pid: 0,
         created_at: moment().format('YYYY-MM-DD HH:mm:ss'),
         updated_at: moment().format('YYYY-MM-DD HH:mm:ss')
       },
       {
         id: 8,
         name: '中式菜系',
+        pid: 0,
         created_at: moment().format('YYYY-MM-DD HH:mm:ss'),
         updated_at: moment().format('YYYY-MM-DD HH:mm:ss')
       },
       {
         id: 9,
         name: '外国美食',
+        pid: 0,
         created_at: moment().format('YYYY-MM-DD HH:mm:ss'),
         updated_at: moment().format('YYYY-MM-DD HH:mm:ss')
       },
       {
         id: 10,
         name: '烘焙',
+        pid: 0,
         created_at: moment().format('YYYY-MM-DD HH:mm:ss'),
         updated_at: moment().format('YYYY-MM-DD HH:mm:ss')
       },
       {
         id: 11,
         name: '传统美食',
+        pid: 0,
         created_at: moment().format('YYYY-MM-DD HH:mm:ss'),
         updated_at: moment().format('YYYY-MM-DD HH:mm:ss')
       },
       {
         id: 12,
         name: '节日食俗',
+        pid: 0,
         created_at: moment().format('YYYY-MM-DD HH:mm:ss'),
         updated_at: moment().format('YYYY-MM-DD HH:mm:ss')
       },

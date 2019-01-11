@@ -4,6 +4,7 @@
   "description": "后台",
   "main": "index.js",
   "dependencies": {
+    "@types/koa": "^2.0.48",
     "_abbrev@1.1.1@abbrev": "^1.1.1",
     "_ansi-regex@2.1.1@ansi-regex": "^2.1.1",
     "_ansi-regex@3.0.0@ansi-regex": "^3.0.0",
@@ -180,6 +181,7 @@
     "isexe": "^2.0.0",
     "js-beautify": "^1.8.9",
     "jsonfile": "^4.0.0",
+    "koa": "^2.6.2",
     "lcid": "^2.0.0",
     "locate-path": "^3.0.0",
     "lodash": "^4.17.11",

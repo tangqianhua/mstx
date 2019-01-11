@@ -1,5 +1,14 @@
 #  数据库结构
 
+### 依赖包
+- koa
+- koa-router
+- koa-static-cache
+- sequelize
+- sequelize-cli
+- md5
+- moment
+
 ### sequelize 库
   - sequelize-cli 用来做数据库迁移
 
@@ -21,6 +30,25 @@
 
 ### 创建数据库迁移文件
 > node_modules/.bin/sequelize migration:create --name user
+### 迁移
+> node_modules/.bin/sequelize db:migrate
+### 撤销迁移
+> node_modules/.bin/sequelize db:migrate:undo
+
+### 撤销所有的迁移
+> node_modules/.bin/sequelize db:migrate:undo:all
+
+### 撤销指定的迁移
+> node_modules/.bin/sequelize db:migrate:undo:all --to XXXXXXXXXXXXXX-create-posts.js
+
+### 创建种子
+> node_modules/.bin/sequelize seed:generate --name demo-user
+
+### 运行种子
+> node_modules/.bin/sequelize db:seed:all
+
+### 撤销种子
+> node_modules/.bin/sequelize db:seed:undo:all
 
 #### 数据库结构
 - user : 用户表

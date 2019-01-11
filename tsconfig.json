@@ -1,0 +1,26 @@
+{
+  "compileOnSave": true,  //  可以让IDE在保存文件的时候根据tsconfig.json重新生成文件
+  "compilerOptions": {
+    "module": "commonjs",   
+    "target": "es2017", //  使用es2017
+    "outDir": "./dis",    //    输出文件
+    "noImplicitAny": true,  //  在表达式和声明上有隐含的 any类型时报错
+    "removeComments": true,   //  删除注释
+    "sourceMap": true,  //  生成相应的 .map文件。
+    "experimentalDecorators": true,   //  启动装饰器
+    "emitDecoratorMetadata": true ,  //  给源码里的装饰器声明加上设计类型元数据
+    "typeRoots": [
+      "node_modules/@types"
+    ]
+  },
+  "include": [
+    "app/**/*"    //  检测app里面的文件
+  ],
+  "exclude": [    //    不检测的文件
+      "node_modules",
+      "dist",
+      "migrations",
+      "seeders",
+      "test"
+  ]
+}
