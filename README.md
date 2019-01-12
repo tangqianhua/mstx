@@ -10,7 +10,7 @@
 - moment
 
 ### sequelize 库
-  - sequelize-cli 用来做数据库迁移
+  - sequelize-cli  用来做数据库迁移
 
 #### 参考资料
 >http://docs.sequelizejs.com/manual/tutorial/migrations.html
