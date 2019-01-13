@@ -2,12 +2,14 @@
 
 ### 依赖包
 - koa
-- koa-router
 - koa-static-cache
 - sequelize
 - sequelize-cli
 - md5
+- mysql2
 - moment
+- koa-controllers
+- reflect-metadata
 
 ### sequelize 库
   - sequelize-cli  用来做数据库迁移
