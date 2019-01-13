@@ -68,3 +68,9 @@
 - comment : 评论表
 
 - fovorite : 收藏
+
+#### 关于TS的坑
+
+- ts默认不会导入json文件，需要配置
+  - 配置声明文件  @myself-types/json.d.ts
+  - tsconfig.json  ->  "include": [ "./@myself-types/**/*" 将声明文件也要引入]

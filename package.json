@@ -17,10 +17,11 @@
     "sequelize": "^4.42.0"
   },
   "devDependencies": {
-    "sequelize-cli": "^5.4.0",
     "@types/koa": "^2.0.48",
     "@types/md5": "^2.1.33",
-    "@types/sequelize": "^4.27.33"
+    "@types/sequelize": "^4.27.33",
+    "sequelize-cli": "^5.4.0",
+    "typescript": "^3.2.2"
   },
   "repository": {
     "type": "git",

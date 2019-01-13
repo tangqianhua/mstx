@@ -4,4 +4,20 @@
   若使用export =导出一个模块，则必须使用TypeScript的特定语法import module = require("module")来导入此模块。
 */
 
-import Koa = require('koa')
+import * as Koa from 'koa'
+import { useControllers } from 'koa-controllers';
+import db from './models/index'
+
+const app = new Koa();
+
+app.use( async(ctx:Koa.Context, next) => {
+  ctx.state.db = db
+  await next()
+})
+
+useControllers(app, __dirname + '/controllers/*.js', {
+    multipart: {
+        dest: './uploads'
+    }
+});
+app.listen(8000)
